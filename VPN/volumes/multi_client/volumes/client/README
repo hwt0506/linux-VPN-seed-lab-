@@ -1,0 +1,23 @@
+*************************************************************************
+* client.c vpn client program via TLS with user authentication 
+*************************************************************************
+
+--------------------------
+To compile the program: 
+--------------------------
+$ make 
+
+
+--------------------------
+To run the client: 
+--------------------------
+
+make sure that the server hostname is matched to IP in /etc/hosts
+
+vim          /etc/hosts
+
+server_IP    server hostname
+
+
+$ sudo ./client [server hostname] [server port] seed dees [last_ip]
+

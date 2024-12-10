@@ -1,0 +1,17 @@
+*************************************************************************
+* server.c vpn server program via TLS with user authentication  
+*************************************************************************
+
+--------------------------
+To compile the program: 
+--------------------------
+$ make 
+
+
+--------------------------
+To run the server: 
+--------------------------
+Make sure the internal network is configured. Run inis if needed.
+
+$./server
+
